@@ -1,6 +1,8 @@
 package com.assignment.group2;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +21,12 @@ public class MainActivity extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+
+        TextView signUpText = findViewById(R.id.textView7);
+        signUpText.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, SignupActivity.class);
+            startActivity(intent);
         });
     }
 }
