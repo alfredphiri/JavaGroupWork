@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">group2</string>
+    <string name="dont_have_account">Dont Have an Account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_in_your_account">Sign In Your Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="or_sign_up_with">or sign up with</string>
+    <string name="sign_up">Sign up</string>
+</resources>
