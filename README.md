@@ -4,7 +4,7 @@ A Java school group project built in Android Studio.
 
 ## Group Members
 
-- _(Dalisto, Benjamin, Christopher, GMT and Alfred)_
+- _(Dalitso, Benjamin, Christopher, GMT and Alfred)_
 
 ## How to Run
 
